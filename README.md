@@ -29,7 +29,7 @@ allprojects {
 In your gradle module :
 
 ```xml
-	        implementation 'com.github.hosein398:ProgressButton:0.1.0'
+implementation 'com.github.hosein398:ProgressButton:0.1.0'
 ```
 
 ### Usage
