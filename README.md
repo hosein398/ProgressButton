@@ -2,8 +2,8 @@
 
 ProgressButton is simple library for show easily button with progress. for example you can use it as button download  
 
-<img align="left" width="50%" src="https://www.oxima.ir/resources/images/articles/source_hub/progressbutton1.jpeg">
-<img align="top" width="50%" src="https://www.oxima.ir/resources/images/articles/source_hub/progressbutton2.jpeg">
+<img align="left" width="40%" src="https://www.oxima.ir/resources/images/articles/source_hub/progressbutton1.jpeg">
+<img align="top" width="40%" src="https://www.oxima.ir/resources/images/articles/source_hub/progressbutton2.jpeg">
 
 ## Features
 * MinSdk 14
