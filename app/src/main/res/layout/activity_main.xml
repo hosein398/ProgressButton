@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d2d2d2"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10sp">
+
+        <ImageView
+            android:layout_width="72sp"
+            android:layout_height="72sp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Oxima application"
+            android:textStyle="bold"
+            android:textColor="#5f5e5e"/>
+
+
+        <ir.oxima.progressbutton.ProgressButton
+            android:id="@+id/btn_progress"
+            android:layout_width="100sp"
+            android:layout_height="35sp"
+            app:pb_color="@color/colorAccent"
+            app:pb_stroke="1sp"
+            app:pb_text_size="12sp"
+            app:pb_corener_redius="3sp"
+            app:pb_text="Install"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Other style"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+        <ir.oxima.progressbutton.ProgressButton
+            android:layout_width="200sp"
+            android:layout_height="35sp"
+            app:pb_color="@color/colorPrimaryDark"
+            app:pb_stroke="1sp"
+            app:pb_text_size="12sp"
+            app:pb_corener_redius="17sp"
+            app:pb_text="Download"
+            android:layout_marginTop="10sp"/>
+
+        <ir.oxima.progressbutton.ProgressButton
+            android:layout_width="200sp"
+            android:layout_height="40sp"
+            app:pb_color="@color/colorPrimaryDark"
+            app:pb_stroke="3sp"
+            app:pb_text_size="12sp"
+            app:pb_corener_redius="5sp"
+            app:pb_text="Download"
+            app:pb_progress="70"
+            android:layout_marginTop="5sp"/>
+
+        <ir.oxima.progressbutton.ProgressButton
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            app:pb_color="@color/colorAccent"
+            app:pb_stroke="2sp"
+            app:pb_text_size="12sp"
+            app:pb_corener_redius="1sp"
+            app:pb_text="Download"
+            app:pb_progress="10"
+            android:layout_marginTop="5sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
