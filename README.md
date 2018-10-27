@@ -46,16 +46,15 @@ you can use ProgressButton very easy, you should add below code in xml of activi
             app:pb_text_size="12sp"
             app:pb_corener_redius="3sp"
             app:pb_text="Install"/>
-
-```html
+```
 
 you can get and set State for button very easily:
-```java
 
+
+```java
 btn_progress.setState(ButtonState.Progress);
 ButtonState state = btn_progress.getState();
-
-```java
+```
 
 
 ## Authors
